@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 gem 'rake'
-gem 'foodcritic'
-gem 'chef', '~> 11.12.2'
+gem 'foodcritic', :git => 'git@github.com:acrmp/foodcritic.git'
+gem 'chef', '~> 11.0'
